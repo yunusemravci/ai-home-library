@@ -22,3 +22,8 @@ build/
 
 # Logs
 *.log
+
+# Frontend
+frontend/ai-home-lib/node_modules/
+frontend/ai-home-lib/.env
+frontend/ai-home-lib/build/
