@@ -1,10 +1,95 @@
-Güncel problemlere yönelik çözümlerin yazıldığı repo.
-* AI supported Own home library books management: AI can help manage and organize personal libraries, providing recommendations, suggesting new books, and even suggesting reading plans based on individual preferences.
-Bu projeyi geliştirmek için adım adım ilerleyelim.
-Öncelikle, projenin ana bileşenlerini ve özelliklerini belirleyelim:
-1. Kitap Kataloğu Yönetimi
-2. AI Destekli Kitap Önerileri
-Okuma Planı Oluşturma
-Kitap Analizi ve İçgörüler
-Kitap Ödünç Verme Takibi
-OCR ile Kitap Ekleme
+# AI Home Library
+
+AI Home Library is a modern web application for managing your personal book collection. It offers features like adding, editing, and deleting books, along with AI-powered recommendations and insights.
+
+## Features
+
+- Add, edit, and delete books in your personal library
+- View detailed information about each book
+- Search and filter books by various criteria
+- User authentication and authorization
+- Responsive design for desktop and mobile devices
+
+## Technologies Used
+
+### Backend
+- Python 3.8+
+- FastAPI
+- SQLAlchemy
+- Pydantic
+- PostgreSQL
+
+### Frontend
+- React 17+
+- Material-UI
+- Axios
+- React Router
+
+## Getting Started
+
+### Prerequisites
+
+- Python 3.8+
+- Node.js 14+
+- PostgreSQL
+
+### Installation
+
+1. Clone the repository
+   ```
+   git clone https://github.com/your-username/ai-home-library.git
+   cd ai-home-library
+   ```
+
+2. Set up the backend
+   ```
+   cd backend
+   python -m venv venv
+   source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+   pip install -r requirements.txt
+   ```
+
+3. Set up the database
+   - Create a PostgreSQL database
+   - Update the database URL in `backend/app/core/config.py`
+
+4. Run database migrations
+   ```
+   alembic upgrade head
+   ```
+
+5. Set up the frontend
+   ```
+   cd ../frontend/ai-home-lib
+   npm install
+   ```
+
+### Running the Application
+
+1. Start the backend server
+   ```
+   cd backend
+   uvicorn app.main:app --reload
+   ```
+
+2. Start the frontend development server
+   ```
+   cd frontend/ai-home-lib
+   npm start
+   ```
+
+3. Open your browser and navigate to `http://localhost:3000`
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgments
+
+- [FastAPI](https://fastapi.tiangolo.com/) for the awesome Python web framework
+- [React](https://reactjs.org/) for the powerful frontend library
+- [Material-UI](https://material-ui.com/) for the beautiful UI components
