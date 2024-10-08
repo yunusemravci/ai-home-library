@@ -1,0 +1,10 @@
+Güncel problemlere yönelik çözümlerin yazıldığı repo.
+* AI supported Own home library books management: AI can help manage and organize personal libraries, providing recommendations, suggesting new books, and even suggesting reading plans based on individual preferences.
+Bu projeyi geliştirmek için adım adım ilerleyelim.
+Öncelikle, projenin ana bileşenlerini ve özelliklerini belirleyelim:
+1. Kitap Kataloğu Yönetimi
+2. AI Destekli Kitap Önerileri
+Okuma Planı Oluşturma
+Kitap Analizi ve İçgörüler
+Kitap Ödünç Verme Takibi
+OCR ile Kitap Ekleme
